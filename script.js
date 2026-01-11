@@ -6,9 +6,9 @@ const btnEliminar = document.getElementById("deleteBtn");
 let imagenSeleccionada = null;
 
 const imagenesIniciales = [
-    "assets/img/perrito1.jpg",
-    "assets/img/perrito2.jpg",
-    "assets/img/perrito3.jpg"
+    "assets/img/foto1.jpg",
+    "assets/img/foto2.jpg",
+    "assets/img/foto3.jpg"
 ];
 
 imagenesIniciales.forEach(url => agregarImagen(url));
